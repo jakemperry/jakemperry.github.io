@@ -1,0 +1,53 @@
+h1 {
+    font-size: 60px;
+    color: green;
+    text-align: center;
+    text-decoration: underline;
+    background-color: black;
+  }
+
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+  }
+
+  p {
+    text-align:center;
+    /* text-decoration-line:line-through; */
+  }
+
+  .buttonStyle{
+      color:greenyellow;
+      background-color: black;
+  }
+  .accordionBodyStyle{
+      font-size: medium;
+    }
+  .accordian-header{
+      color:greenyellow;
+  }
+
+  .accordian-body{
+      color: greenyellow;
+  }
+  
+  a {
+      color: black;
+      text-decoration: none;
+      cursor:help;
+      text-align: center;
+  }
+
+.rowStyle {
+    text-align: center;
+    font-size: large;
+}
+
+.accordionHeaderStyle {
+    color: yellow;
+    background-color: black;
+}
+body {
+    background-color:wheat;
+}

@@ -3,42 +3,103 @@
 <head>
   <meta charset="UTF-8">
   <title>Jake Perry</title>
-  <style>
-    h1 {
-      font-size: 60px;
-      color: green;
-      text-align: center;
-      text-decoration: underline;
-      background-color: black;
-    }
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+      <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+      <link rel="stylesheet" href="style.css">
 
-    img {
-      margin-left: auto;
-      margin-right: auto;
-      display:block;
-    }
-
-    p {
-      text-align:center;
-    }
-  </style>
 </head>
 
 <body>
 <h1>Jake Perry</h1>
+
+<div class="container">
+  <div class="row rowStyle">
+    <div class="col-md-4">
+      <a class="coolLinks" href="https://github.com/jakemperry" title="very committed">GitHub</a>
+    </div>
+    <div class="col-md-4">
+      <a href="mailto:jakemperry@gmail.com" title="let's talk">Email</a>
+    </div>
+    <div class="col-md-4">
+      <a href="https://www.linkedin.com/in/jake-perry-ms-eit-8145257a/" title="so professional">LinkedIn</a></li>
+    </div>
+
+    </div>
+  </div>
+</div>
+<br>
 
 <img src="IMG_0809.jpeg" alt="Jake Perry (not from State Farm)" height="200">
 
 <p>I am an environmental consultant with an interest in numerical modeling and data science.</p>
 <p>I live in Irvine, CA and enjoy cycling, beach days, and supporting my local breweries.</p>
 
-<ul>
+
+
+<!-- <ul>
   <li><strong>Email: </strong><a href="mailto:jakemperry@gmail.com">jakemperry@gmail.com</a></li>
   <li><strong>GitHub: </strong><a href="https://github.com/jakemperry">jakemperry</a></li>
   <li><strong>LinkedIn: </strong><a href="https://www.linkedin.com/in/jake-perry-ms-eit-8145257a/">Link</a></li>
-</ul>
+</ul> -->
 
-<table border="1">
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button buttonStyle" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Books
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body accordionBodyStyle">
+        <strong>I mostly read nonfiction, but I enjoy magical realism here and there.</strong> 
+        <ul>
+          <li>Bless Me, Ultima</li>
+          <li>Outside The Wire</li>
+          <li>Tools of Titans</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item accoridonHeaderStyle">
+    <h2 class="accordion-header accoridonHeaderStyle" id="headingTwo">
+      <button class="accordion-button buttonStyle collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Movies
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Thor: Ragnarok is a perfect film.  I also enjoy horror movies.</strong> 
+        <ul>
+          <li>Thor: Ragnarok</li>
+          <li>Midsommar</li>
+          <li>It (2017)/It: Chapter 2 (2019)</li>
+          <li>Us (2019)</li>
+          <li>Get Out</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button buttonStyle collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Games
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>I can not aim at all while playing video games.  That's why tabletop games are cool.</strong>
+        <ul>
+          <li>Fortnite</li>
+          <li>Ticket to Ride</li>
+          <li>Bananagrams</li>
+          <li>Sequence</li>
+          <li>Magic: The Gathering <i>(I always forget how to play every time I play.)</i></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- <table border="1">
   <tr>
     <th>Books</th>
     <th>Movies</th>
@@ -59,7 +120,12 @@
     <td>It (2017/2019)</td>
     <td>Among Us</td>
   </tr>
-</table>
+</table> -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 
 </html>
