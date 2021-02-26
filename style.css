@@ -1,9 +1,9 @@
 h1 {
     font-size: 60px;
-    color: green;
+    color:seagreen;
     text-align: center;
-    text-decoration: underline;
-    background-color: black;
+    text-decoration: none;
+    background-color: wheat;
   }
 
   img {
@@ -18,14 +18,14 @@ h1 {
   }
 
   .buttonStyle{
-      color:greenyellow;
-      background-color: black;
+      color:seagreen;
+      background-color: wheat;
   }
   .accordionBodyStyle{
       font-size: medium;
     }
   .accordian-header{
-      color:greenyellow;
+      color:seagreen;
   }
 
   .accordian-body{
@@ -50,4 +50,8 @@ h1 {
 }
 body {
     background-color:wheat;
+}
+
+.abstract {
+font-size: large;
 }
