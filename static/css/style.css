@@ -45,3 +45,24 @@ font-size: large;
   font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
   color: white;
 }
+
+.var {
+  color: rgb(198, 120, 221);
+  font-style: italic;
+}
+
+.func {
+  color:rgb(97, 197, 239);
+}
+
+.str {
+  color: rgb(153,195,121);
+}
+
+.ext {
+  color:rgb(255,215,0);
+}
+
+.int {
+  color: rgb(206,152,101);
+}
